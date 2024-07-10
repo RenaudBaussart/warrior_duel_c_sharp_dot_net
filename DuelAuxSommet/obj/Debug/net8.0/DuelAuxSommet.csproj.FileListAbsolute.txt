@@ -1,0 +1,15 @@
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\bin\Debug\net8.0\DuelAuxSommet.exe
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\bin\Debug\net8.0\DuelAuxSommet.deps.json
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\bin\Debug\net8.0\DuelAuxSommet.runtimeconfig.json
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\bin\Debug\net8.0\DuelAuxSommet.dll
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\bin\Debug\net8.0\DuelAuxSommet.pdb
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\DuelAuxSommet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\DuelAuxSommet.AssemblyInfoInputs.cache
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\DuelAuxSommet.AssemblyInfo.cs
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\DuelAuxSommet.csproj.CoreCompileInputs.cache
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\DuelAuxSommet.sourcelink.json
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\DuelAuxSommet.dll
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\refint\DuelAuxSommet.dll
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\DuelAuxSommet.pdb
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\DuelAuxSommet.genruntimeconfig.cache
+C:\Users\renau\Dev-document-tool\brief\DuelAuxSommet\DuelAuxSommet\obj\Debug\net8.0\ref\DuelAuxSommet.dll

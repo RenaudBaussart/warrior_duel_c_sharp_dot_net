@@ -5,17 +5,119 @@
     {
       "AbsoluteMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|c:\\users\\renau\\dev-document-tool\\brief\\duelauxsommet\\duelauxsommet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|solutionrelative:duelauxsommet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|c:\\users\\renau\\dev-document-tool\\brief\\duelauxsommet\\duelauxsommet\\classes\\duel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|solutionrelative:duelauxsommet\\classes\\duel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|c:\\users\\renau\\dev-document-tool\\brief\\duelauxsommet\\duelauxsommet\\classes\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|solutionrelative:duelauxsommet\\classes\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|c:\\users\\renau\\dev-document-tool\\brief\\duelauxsommet\\duelauxsommet\\classes\\ccoloreasy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|solutionrelative:duelauxsommet\\classes\\ccoloreasy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|c:\\users\\renau\\dev-document-tool\\brief\\duelauxsommet\\duelauxsommet\\classes\\nain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|solutionrelative:duelauxsommet\\classes\\nain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|c:\\users\\renau\\dev-document-tool\\brief\\duelauxsommet\\duelauxsommet\\classes\\elfe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|solutionrelative:duelauxsommet\\classes\\elfe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|c:\\users\\renau\\dev-document-tool\\brief\\duelauxsommet\\duelauxsommet\\duelauxsommet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2FE9902-440F-475E-A575-41DABF1ABF79}|DuelAuxSommet\\DuelAuxSommet.csproj|solutionrelative:duelauxsommet\\duelauxsommet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CColorEasy.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\CColorEasy.cs",
+              "RelativeDocumentMoniker": "DuelAuxSommet\\Classes\\CColorEasy.cs",
+              "ToolTip": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\CColorEasy.cs",
+              "RelativeToolTip": "DuelAuxSommet\\Classes\\CColorEasy.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T17:21:30.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Elfe.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\Elfe.cs",
+              "RelativeDocumentMoniker": "DuelAuxSommet\\Classes\\Elfe.cs",
+              "ToolTip": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\Elfe.cs",
+              "RelativeToolTip": "DuelAuxSommet\\Classes\\Elfe.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBoAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:15:16.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Nain.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\Nain.cs",
+              "RelativeDocumentMoniker": "DuelAuxSommet\\Classes\\Nain.cs",
+              "ToolTip": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\Nain.cs",
+              "RelativeToolTip": "DuelAuxSommet\\Classes\\Nain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T13:55:09.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Duel.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\Duel.cs",
+              "RelativeDocumentMoniker": "DuelAuxSommet\\Classes\\Duel.cs",
+              "ToolTip": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\Duel.cs",
+              "RelativeToolTip": "DuelAuxSommet\\Classes\\Duel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T12:26:15.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\Warrior.cs",
+              "RelativeDocumentMoniker": "DuelAuxSommet\\Classes\\Warrior.cs",
+              "ToolTip": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Classes\\Warrior.cs",
+              "RelativeToolTip": "DuelAuxSommet\\Classes\\Warrior.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowDIAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T12:00:25.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DuelAuxSommet",
+              "DocumentMoniker": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\DuelAuxSommet.csproj",
+              "RelativeDocumentMoniker": "DuelAuxSommet\\DuelAuxSommet.csproj",
+              "ToolTip": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\DuelAuxSommet.csproj",
+              "RelativeToolTip": "DuelAuxSommet\\DuelAuxSommet.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-10T12:00:03.502Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +126,7 @@
               "RelativeDocumentMoniker": "DuelAuxSommet\\Program.cs",
               "ToolTip": "C:\\Users\\renau\\Dev-document-tool\\brief\\DuelAuxSommet\\DuelAuxSommet\\Program.cs",
               "RelativeToolTip": "DuelAuxSommet\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T11:46:37.933Z",
               "EditorCaption": ""
