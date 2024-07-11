@@ -16,13 +16,12 @@
                 if (guerrier2.Hp < 1)
                 {
                     winner = guerrier1.Name;
-                    break;
                 }
-                if (guerrier1.Hp < 1)
+                else if (guerrier1.Hp < 1)
                 {
                     winner = guerrier2.Name;
-                    break;
                 }
+                else { 
                 #endregion
                 #region attack guerrier 2
                 guerrier1.Defence(guerrier2.Attack());
@@ -34,7 +33,8 @@
                 {
                     winner = guerrier1.Name;
                 }
-                #endregion
+                    #endregion
+                }
                 indexCombat++;
             }
             if (indexCombat == 100)

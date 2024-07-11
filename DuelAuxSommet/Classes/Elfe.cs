@@ -8,23 +8,23 @@ namespace DuelAuxSommet.Classes
 {
     internal class Elfe : Warrior
     {
-        public Elfe(string name,int pv, int nbAttack) : base(name,pv,nbAttack)
+        public Elfe(string name,int pv, Arme weapon, Armure armor) : base(name, pv, weapon, armor)
         {
         }
         public override int Attack()
         {
             CColorEasy.Choice(WitchPlayer, true);
             Random rnd = new Random();
-            int attackOut = rnd.Next(6 * NumberOfAttack + 1);
+            int attackOut = rnd.Next(Weapon.DamageDice * Weapon.NumberOfHits + 1);
             if (attackOut > 1)
             {
-                Console.WriteLine($"le guerrier Elfe du nom de {Name} a infliger un coup qui a fait {attackOut}!");
+                Console.WriteLine($"le guerrier du nom de {Name} a infliger un coup qui a fait {attackOut}!");
                 CColorEasy.Choice(0, true);
                 return attackOut;
             }
             else if (attackOut >= 0) 
             {
-                Console.WriteLine($"le guerrier Elfe du nom de {Name} a infliger un coup inextremis qui a fait 1!");
+                Console.WriteLine($"le guerrier du nom de {Name} a infliger un coup inextremis qui a fait 1!");
                 CColorEasy.Choice(0, true);
                 return 1;
             }

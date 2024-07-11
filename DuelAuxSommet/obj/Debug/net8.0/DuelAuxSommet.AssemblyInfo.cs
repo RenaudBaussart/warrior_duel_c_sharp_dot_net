@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DuelAuxSommet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+653a29be2c44fd52f4858f4dbc3c13416f69a8f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c45b27248a42592a46931c23aa785ba5aadb0b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DuelAuxSommet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DuelAuxSommet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

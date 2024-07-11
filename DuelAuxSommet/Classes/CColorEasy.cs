@@ -20,22 +20,22 @@ namespace DuelAuxSommet.Classes
                     Console.BackgroundColor = ConsoleColor.Black;
                     if (isAttacking)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
                     }
                     else
                     {
-                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.ForegroundColor = ConsoleColor.Red;
                     }
                     break;
                 case 2:
-                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Console.BackgroundColor = ConsoleColor.Black;
                     if (isAttacking)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
                     }
                     else
                     {
-                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.ForegroundColor = ConsoleColor.Blue;
                     }
                     break;
                 default:

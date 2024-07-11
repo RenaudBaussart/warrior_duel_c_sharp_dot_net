@@ -11,22 +11,26 @@ namespace DuelAuxSommet.Classes
         #region attribut
         private string _Name;
         private int _Hp;
-        private int _numberOfAttack;
         private int _witchPlayer;
+        private Arme _weapon;
+        private Armure _armor;
         #endregion
         #region getter/setter
         public string Name {  get =>  _Name; set => _Name = value; }
         public int Hp { get => _Hp; set => _Hp = value; }
-        public int NumberOfAttack { get => _numberOfAttack; set => _numberOfAttack = value; }
         public int WitchPlayer { get => _witchPlayer; set => _witchPlayer = value; }
+        internal Arme Weapon { get => _weapon; set => _weapon = value; }
+        internal Armure Armor { get => _armor; set => _armor = value; }
         #endregion
         #region constructor
-        public Warrior(string name,int pv, int nbAttack) 
+        public Warrior(string name, int pv, Arme weapon, Armure armor)
         {
             Name = name;
             Hp = pv;
-            NumberOfAttack = nbAttack;
             WitchPlayer = 0;
+            Weapon = weapon;
+            Armor = armor;
+            
         }
         #endregion
         #region methode
@@ -34,7 +38,7 @@ namespace DuelAuxSommet.Classes
         {
             CColorEasy.Choice(WitchPlayer, true);
             Random rnd = new Random();
-            int attackOut = rnd.Next(6 * NumberOfAttack + 1);
+            int attackOut = rnd.Next(Weapon.DamageDice * Weapon.NumberOfHits + 1);
             if (attackOut > 1)
             {
                 Console.WriteLine($"le guerrier du nom de {Name} a infliger un coup qui a fait {attackOut}!");
@@ -48,8 +52,19 @@ namespace DuelAuxSommet.Classes
         public virtual void Defence(int numberOfDamage)
         {
             CColorEasy.Choice(WitchPlayer, false);
-            Console.WriteLine($"le guerrier du nom de {Name} a desormé {Hp} point de vie");
-            Hp =  Hp - numberOfDamage;
+            if (Armor.NumberOfArmorPoint <= 0)
+            {
+                Hp -= numberOfDamage;
+            }
+            else if (Armor.NumberOfArmorPoint >= numberOfDamage)
+            {
+                Armor.NumberOfArmorPoint -= numberOfDamage;
+            }
+            else if (Armor.NumberOfArmorPoint < numberOfDamage)
+            {
+                Armor.NumberOfArmorPoint = 0;
+            }
+            Console.WriteLine($"le guerrier du nom de {Name} a desormé {Hp} point de vie et {Armor.NumberOfArmorPoint} point d'armur!");
             CColorEasy.Choice(0, true);
         }
         #endregion
