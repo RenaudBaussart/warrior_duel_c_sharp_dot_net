@@ -8,10 +8,10 @@ namespace DuelAuxSommet.Classes
 {
     internal class Nain : Warrior
     {
-        private int _armorPoint;
         public Nain(string name,int pv, Arme weapon, Armure armor) : base(name,pv,weapon,armor) 
         {
             Armor.NumberOfArmorPoint = armor.NumberOfArmorPoint + 50;
+            Race = "nain";
         }
     }
 }

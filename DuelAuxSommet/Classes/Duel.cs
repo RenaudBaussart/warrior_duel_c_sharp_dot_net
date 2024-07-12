@@ -1,9 +1,12 @@
-﻿namespace DuelAuxSommet.Classes
+﻿using System.Collections.Generic;
+
+namespace DuelAuxSommet.Classes
 {
     internal class Duel
     {
-        public static string ItIsTime(Warrior guerrier1, Warrior guerrier2)
-        {
+        private List<Warrior>(){
+            public static string ItIsTime(Warrior guerrier1, Warrior guerrier2)
+            {
             guerrier1.WitchPlayer = 1;
             guerrier2.WitchPlayer = 2;
             string winner = "";
@@ -21,18 +24,18 @@
                 {
                     winner = guerrier2.Name;
                 }
-                else { 
-                #endregion
-                #region attack guerrier 2
-                guerrier1.Defence(guerrier2.Attack());
-                if(guerrier1.Hp < 1)
-                {
-                    winner = guerrier2.Name;
-                }
-                if(guerrier2.Hp < 1)
-                {
-                    winner = guerrier1.Name;
-                }
+                else {
+                    #endregion
+                    #region attack guerrier 2
+                    guerrier1.Defence(guerrier2.Attack());
+                    if (guerrier1.Hp < 1)
+                    {
+                        winner = guerrier2.Name;
+                    }
+                    if (guerrier2.Hp < 1)
+                    {
+                        winner = guerrier1.Name;
+                    }
                     #endregion
                 }
                 indexCombat++;
@@ -42,6 +45,12 @@
                 return $"{guerrier1.Name} et {guerrier2.Name} ont été incapable de s'entretuer in sont donc 2 quiche!";
             }
             return winner + " est le gagnant du combat!";
+        }
+        public static void TournamentTime(List<Warrior> listWars)
+        {
+
+
+
         }
     }
 }
