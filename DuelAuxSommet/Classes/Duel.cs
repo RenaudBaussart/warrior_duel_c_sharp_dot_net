@@ -58,9 +58,10 @@ namespace DuelAuxSommet.Classes
             }
             return winner + " est le gagnant du combat!";
         }
-        public static void TournamentTime(List<Warrior> listWars)
+        public static void TournamentTime(List<Warrior> inputListWars)
         {
-            
+            List<Warrior> listWars = new List<Warrior>();
+            listWars.AddRange(inputListWars);
             if (listWars.Count() < 2)
             {
                 Console.Clear();
