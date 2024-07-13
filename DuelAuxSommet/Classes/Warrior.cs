@@ -11,6 +11,7 @@ namespace DuelAuxSommet.Classes
         #region attribut
         private string _Name;
         private int _Hp;
+        private int _HpMax;
         private int _witchPlayer;
         private Arme _weapon;
         private Armure _armor;
@@ -23,12 +24,14 @@ namespace DuelAuxSommet.Classes
         internal Arme Weapon { get => _weapon; set => _weapon = value; }
         internal Armure Armor { get => _armor; set => _armor = value; }
         public string Race { get => _race; set => _race = value; }
+        public int HpMax { get => _HpMax; set => _HpMax = value; }
         #endregion
         #region constructor
         public Warrior(string name, int pv, Arme weapon, Armure armor)
         {
             Name = name;
             Hp = pv;
+            HpMax = pv;
             WitchPlayer = 0;
             Weapon = weapon;
             Armor = armor;
@@ -51,6 +54,13 @@ namespace DuelAuxSommet.Classes
             CColorEasy.Choice(0, true);
             return 0;
         }
+        public virtual int TournamentAttack()
+        {
+            CColorEasy.Choice(WitchPlayer, true);
+            Random rnd = new Random();
+            int attackOut = rnd.Next(Weapon.DamageDice * Weapon.NumberOfHits + 1);
+            return attackOut;
+        }
         public virtual void Defence(int numberOfDamage)
         {
             CColorEasy.Choice(WitchPlayer, false);
@@ -68,6 +78,25 @@ namespace DuelAuxSommet.Classes
             }
             Console.WriteLine($"le guerrier du nom de {Name} a desormé {Hp} point de vie et {Armor.NumberOfArmorPoint} point d'armure!");
             CColorEasy.Choice(0, true);
+        }
+        public virtual void TournamentDefence(int numberOfDamage)
+        {
+            if (Armor.NumberOfArmorPoint <= 0)
+            {
+                Hp -= numberOfDamage;
+            }
+            else if (Armor.NumberOfArmorPoint >= numberOfDamage)
+            {
+                Armor.NumberOfArmorPoint -= numberOfDamage;
+            }
+            else if (Armor.NumberOfArmorPoint < numberOfDamage)
+            {
+                Armor.NumberOfArmorPoint = 0;
+            }
+        }
+        public void HpReset()
+        {
+            Hp = HpMax;
         }
         #endregion
     }

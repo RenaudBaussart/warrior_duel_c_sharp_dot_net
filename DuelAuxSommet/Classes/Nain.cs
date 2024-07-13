@@ -12,6 +12,7 @@ namespace DuelAuxSommet.Classes
         {
             Armor.NumberOfArmorPoint = armor.NumberOfArmorPoint + 50;
             Race = "nain";
+            HpMax = pv;
         }
     }
 }

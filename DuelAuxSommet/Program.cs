@@ -1,4 +1,5 @@
 ﻿using DuelAuxSommet.Classes;
+using System.Collections.Generic;
 using System.Runtime.InteropServices;
 #region function
 void GameMenu(string witchOne)
@@ -196,6 +197,19 @@ while (appIsActive)
         case "start":
             bool gameIsActive = true;
             List<Warrior> warriorsList = new List<Warrior>();
+            //----testing
+            Arme warrior1weapon = new Arme("un Marteau", 1, 7);
+            Armure warrior1armor = new Armure(10);
+            warriorsList.Add(new Nain("jhon",100,warrior1weapon,warrior1armor));
+            warriorsList.Add(new Nain("robert", 100, warrior1weapon, warrior1armor));
+            warriorsList.Add(new Nain("eldri", 100, warrior1weapon, warrior1armor));
+            warriorsList.Add(new Nain("corki", 100, warrior1weapon, warrior1armor));
+            warriorsList.Add(new Elfe("er", 100, warrior1weapon, warrior1armor));
+            warriorsList.Add(new Elfe("errt", 100, warrior1weapon, warrior1armor));
+            warriorsList.Add(new Elfe("eri", 100, warrior1weapon, warrior1armor));
+            warriorsList.Add(new Elfe("ereri", 100, warrior1weapon, warrior1armor));
+            //end of testing
+            
             while (gameIsActive)
             {
                 int menuMainSelect;
@@ -221,7 +235,7 @@ while (appIsActive)
                             }
                         case 2:
                             Console.Clear();
-                            Console.Write("-----List des guerrier-----");
+                            Console.Write("-----List des guerrier-----\n");
                             for (int i = 0; i < warriorsList.Count; i++)
                             {
                                 Console.WriteLine($"[id:{i + 1}] un Guerrier {warriorsList[i].Race} du nom de {warriorsList[i].Name}:");
@@ -234,8 +248,8 @@ while (appIsActive)
                             List<string> activeFighter = new List<string>();
                             Console.Clear();
                             Console.WriteLine("---- Combat ----");
-                            restartIdReading:
-                            Console.Write("Selectioner les 2 id comme si desous\n[id1] [id2]:");
+                        restartIdReading:
+                            Console.Write("Selectioner les 2 id comme si desous\n[id1] [id2]\npour annuler tapez cancel | selection:");
                             fighterString = Console.ReadLine();
                             if(fighterString == null || fighterString == " ")
                             {
@@ -245,6 +259,10 @@ while (appIsActive)
                             }
                             else
                             {
+                                if (fighterString == "cancel")
+                                {
+                                    break;
+                                }
                                 int fighter1;
                                 int fighter2;
                                 activeFighter.AddRange(fighterString.Split(' '));
@@ -272,8 +290,33 @@ while (appIsActive)
                             }
                             break;
                         case 4:
+                            Duel.TournamentTime(warriorsList);
+                            Console.ReadKey();
                             break;
                         case 5:
+                            Console.Clear();
+                            Console.Write("Entrée l'id du guerrier que vous voulez supprimez:");
+                            int warriorIdToRemove;
+                            if (!int.TryParse(Console.ReadLine(), out warriorIdToRemove))
+                            {
+                                Console.WriteLine("Erreur ce nest pas un id");
+                                Console.ReadKey();
+                                break;
+                            }
+                            restartSupressionDemande:
+                            Console.Write($"Vous étes sur de vouloir supprimez {warriorsList[warriorIdToRemove - 1].Name}?: oui / non");
+                            switch (Console.ReadLine())
+                            {
+                                case "oui":
+                                    break;
+                                case "non":
+                                    break;
+                                default:
+                                    Console.WriteLine("entrée invalide");
+                                    goto restartSupressionDemande;
+                            }
+                            break;
+                        case 6:
                             System.Environment.Exit(0);
                             break;
                     }
